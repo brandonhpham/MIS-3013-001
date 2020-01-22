@@ -45,6 +45,8 @@ namespace Variables
 
             Console.WriteLine(fullName + " has the favorite number of " + favNumber + " \nwhich equates to a crazy number of " + crazyNumber);
 
+            //same thing as above
+            Console.WriteLine($"{fullName} has the favorite number of {favNumber} \nwhich equates to a crazy number of {crazyNumber}");
             Console.ReadKey();
         }
     }
